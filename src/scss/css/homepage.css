@@ -339,7 +339,7 @@ body {
 
 .bottom-right {
   width: 25%;
-  margin-right: 4vw;
+  margin-right: 15vw;
   margin-left: 2vw;
 }
 
@@ -372,15 +372,15 @@ body {
 }
 
 .bottom-text1 {
-  font-size: 0.8em;
+  font-size: 1em;
 }
 
 .bottom-text2 {
-  font-size: 0.8em;
+  font-size: 1em;
 }
 
 .bottom-quote {
-  font-size: 0.8em;
+  font-size: 1em;
   font-style: italic;
 }
 
@@ -516,6 +516,7 @@ body {
   }
   .bottom-right {
     width: 100vw;
+    margin-left: auto;
   }
   .healthImg1, .healthImg3 {
     height: 200px;
@@ -539,5 +540,7 @@ body {
   }
   .bottom-quote {
     font-size: 1.25em;
+    width: 50%;
+    margin: auto;
   }
 }

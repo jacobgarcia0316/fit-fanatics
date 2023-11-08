@@ -30,9 +30,9 @@ const Homepage = () => {
                 <img src={heroImg} className='heroImg'></img>
             </section>
             <section className='right'>
-                <p className='p1'>Fastest growing fitness community in 2023</p>
-                <p className='p2'><span className='bold'>Join Fit Fanatics</span><br/> and realize your fitness potential</p>
-                <p className='p3'>Follow guided weekly workout routines, discover your daily caloric needs and take your health into your own hands</p>
+                <p className='p1'>the Fastest growing fitness community in 2023</p>
+                <p className='p2'>Join <i className='bold'>Fit Fanatics</i><br/> and realize your fitness potential</p>
+                <p className='p3'>Follow guided weekly workout routines, discover your daily caloric needs and finally take your health into your own hands</p>
                 <button className='hero-btn'>Start today <AiOutlineArrowRight className='button-arrow'/></button>
             </section>
         </div>
