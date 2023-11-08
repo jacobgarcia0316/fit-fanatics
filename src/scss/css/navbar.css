@@ -1,0 +1,69 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100;400;700&display=swap");
+body {
+  font-family: "Roboto Mono", "Times New Roman", Times, serif;
+  margin: 0;
+  height: 100vh;
+  width: 100vw;
+}
+
+.navbar-container {
+  background-color: rgb(188, 188, 255);
+  display: flex;
+  justify-content: space-between;
+  margin: 1%;
+  height: 7vh;
+  width: 98%;
+  border-radius: 15px;
+  position: sticky;
+  top: 0;
+}
+
+.logo {
+  max-height: auto;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+}
+.logo:hover {
+  cursor: pointer;
+}
+
+.navbar {
+  width: 70%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar-item {
+  font-size: 0.9em;
+  list-style: none;
+  text-transform: uppercase;
+  flex-wrap: wrap;
+  width: auto;
+  text-align: right;
+  margin-right: 2vw;
+  display: inline-block;
+  position: relative;
+}
+.navbar-item::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: white;
+  transform-origin: bottom right;
+  transition: transform 0.4s ease-out;
+}
+.navbar-item:hover::after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+.navbar-item:hover {
+  color: white;
+  cursor: pointer;
+  font-weight: bold;
+  transition: ease-in-out 150ms;
+}
