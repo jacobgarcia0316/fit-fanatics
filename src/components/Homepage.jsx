@@ -68,7 +68,6 @@ const Homepage = () => {
                 <div>
                     <p className="rating-item">"Such an amazing community! Everyone on here is so uplifting and supportive."<br/> -Alexis Allan<br/>Dallas, Texas</p>
                 </div>
-
             </Carousel>
         </section>
     </div>
